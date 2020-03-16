@@ -2,7 +2,7 @@
   <tool name="ssh" description="ssh-tunnel" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="ssh" />
-      <option name="PARAMETERS" value="root@159.69.189.202 -R 9005:localhost:9000" />
+      <option name="PARAMETERS" value="-i &quot;C:\Users\onur\Documents\MobaXterm\home\.ssh\id_ed25519&quot; -tt root@159.69.189.202 -R 9005:localhost:9000" />
       <option name="WORKING_DIRECTORY" value="$USER_HOME$/PhpstormProjects/serverwaplog" />
     </exec>
   </tool>
