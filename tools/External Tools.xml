@@ -3,7 +3,7 @@
     <exec>
       <option name="COMMAND" value="ssh" />
       <option name="PARAMETERS" value="root@159.69.189.202 -R 9005:localhost:9000" />
-      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PhpstormProjects/serverwaplog" />
     </exec>
   </tool>
 </toolSet>
