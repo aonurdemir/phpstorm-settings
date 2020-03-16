@@ -3,7 +3,7 @@
     <exec>
       <option name="COMMAND" value="ssh" />
       <option name="PARAMETERS" value="-i &quot;C:\Users\onur\Documents\MobaXterm\home\.ssh\id_ed25519&quot; -t root@159.69.189.202 -R 9005:localhost:9000" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PhpstormProjects/serverwaplog" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/onur/PhpstormProjects/serverwaplog" />
     </exec>
   </tool>
 </toolSet>
