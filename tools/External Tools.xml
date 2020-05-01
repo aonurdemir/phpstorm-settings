@@ -2,7 +2,7 @@
   <tool name="ssh" description="ssh-tunnel" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="ssh" />
-      <option name="PARAMETERS" value="-i &quot;C:\Users\Onur\Documents\private_key.ppk&quot; -t root@devwaplog2.vlstats.com -R 9005:localhost:9000" />
+      <option name="PARAMETERS" value="-t root@devwaplog2.vlstats.com -R 9005:localhost:9000" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
