@@ -27,6 +27,7 @@
             <extension name="Reflection" />
             <extension name="SPL" />
             <extension name="SimpleXML" />
+            <extension name="amqp" />
             <extension name="bcmath" />
             <extension name="bz2" />
             <extension name="calendar" />
