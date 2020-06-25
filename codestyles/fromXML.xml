@@ -62,6 +62,12 @@
       <option name="SMART_TABS" value="true" />
     </indentOptions>
     <arrangement>
+      <groups>
+        <group>
+          <type>GETTERS_AND_SETTERS</type>
+          <order>KEEP</order>
+        </group>
+      </groups>
       <rules>
         <section>
           <rule>
@@ -73,7 +79,10 @@
         <section>
           <rule>
             <match>
-              <CONST>true</CONST>
+              <AND>
+                <CONST>true</CONST>
+                <modifiers />
+              </AND>
             </match>
           </rule>
         </section>
