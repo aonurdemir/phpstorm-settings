@@ -6,6 +6,7 @@
       <mapping ext="nginx" type="Dockerfile" />
       <mapping ext="redis" type="Dockerfile" />
       <mapping pattern="apple-app-site-association" type="PLAIN_TEXT" />
+      <mapping pattern="file" type="PLAIN_TEXT" />
       <mapping pattern=".env.pipelines" type="PLAIN_TEXT" />
       <mapping pattern=".env.testing" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
