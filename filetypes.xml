@@ -5,6 +5,7 @@
       <mapping ext="awsebcli" type="Dockerfile" />
       <mapping ext="nginx" type="Dockerfile" />
       <mapping ext="redis" type="Dockerfile" />
+      <mapping pattern="var-dump-server" type="PLAIN_TEXT" />
       <mapping pattern="04-npm-run-build" type="PLAIN_TEXT" />
       <mapping pattern=".env.testing" type="PLAIN_TEXT" />
       <mapping pattern=".ebignore" type="PLAIN_TEXT" />
