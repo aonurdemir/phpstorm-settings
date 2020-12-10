@@ -1,4 +1,9 @@
 <application>
+  <component name="GithubAccounts">
+    <account id="2fcf77b7-675d-4b8a-bde5-9901d378802a" name="aonurdemir">
+      <server host="github.com" />
+    </account>
+  </component>
   <component name="GithubSettings">
     <option name="LOGIN" value="onur.demir@scoutium.com" />
     <option name="HOST" value="bitbucket.org" />
