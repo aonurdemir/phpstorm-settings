@@ -1,7 +1,9 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="Dockerfile_worker" type="AUTO_DETECTED" />
       <mapping pattern="Dockerfile-with-nginx" type="Dockerfile" />
+      <mapping pattern="Dockerfile_Worker" type="Dockerfile" />
       <mapping ext="awsebcli" type="Dockerfile" />
       <mapping ext="nginx" type="Dockerfile" />
       <mapping ext="redis" type="Dockerfile" />
