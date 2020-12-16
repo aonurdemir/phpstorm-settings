@@ -4,6 +4,18 @@
       <configuration>
         <option name="apiUrl" value="npipe:////./pipe/docker_engine" />
         <option name="certificatesPath" />
+        <option name="pathMappings">
+          <list>
+            <DockerPathMappingImpl>
+              <option name="localPath" value="C:\Users" />
+              <option name="virtualMachinePath" value="/c/Users" />
+            </DockerPathMappingImpl>
+            <DockerPathMappingImpl>
+              <option name="localPath" value="\\wsl$\Ubuntu-20.04\home\onur\projects\takeaway-mail-microservice" />
+              <option name="virtualMachinePath" value="/var/www" />
+            </DockerPathMappingImpl>
+          </list>
+        </option>
       </configuration>
     </remote-server>
   </component>
